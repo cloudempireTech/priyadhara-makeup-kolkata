@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <linearGradient id="roseGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCE7F3"/>
+      <stop offset="35%" stop-color="#F472B6"/>
+      <stop offset="70%" stop-color="#E11D48"/>
+      <stop offset="100%" stop-color="#BE123C"/>
+    </linearGradient>
+    <linearGradient id="goldGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FEF08A"/>
+      <stop offset="50%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+    <linearGradient id="darkBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#180C1E"/>
+      <stop offset="100%" stop-color="#09040C"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="500" rx="100" fill="url(#darkBg)"/>
+  <circle cx="250" cy="250" r="210" fill="none" stroke="url(#goldGlow)" stroke-width="3" stroke-dasharray="6 6"/>
+  
+  <!-- Elegant Monogram PD & Chandan Bindi -->
+  <circle cx="250" cy="140" r="12" fill="url(#roseGold)"/>
+  <circle cx="230" cy="140" r="4" fill="url(#goldGlow)"/>
+  <circle cx="270" cy="140" r="4" fill="url(#goldGlow)"/>
+  
+  <!-- Stylized P and D Interlocking -->
+  <path d="M 190 170 L 190 280 L 214 280 L 214 240 C 240 240, 255 230, 255 205 C 255 180, 240 170, 214 170 Z M 214 190 L 225 190 C 235 190, 240 195, 240 205 C 240 215, 235 220, 225 220 L 214 220 Z" fill="url(#roseGold)"/>
+  <path d="M 260 170 L 260 280 L 285 280 C 315 280, 335 260, 335 225 C 335 190, 315 170, 285 170 Z M 284 192 C 300 192, 310 205, 310 225 C 310 245, 300 258, 284 258 L 284 192 Z" fill="url(#goldGlow)"/>
+  
+  <text x="250" y="375" font-family="'Playfair Display', serif" font-size="38" font-weight="700" fill="#FFFFFF" letter-spacing="6" text-anchor="middle">PRIYA DHARA</text>
+  <text x="250" y="415" font-family="'Inter', sans-serif" font-size="13" font-weight="600" fill="#F472B6" letter-spacing="7" text-anchor="middle">BRIDAL MAKEOVER &amp; ACADEMY &bull; KOLKATA</text>
+</svg>
